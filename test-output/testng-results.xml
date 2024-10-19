@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-19T22:36:30 IST" name="Default suite" finished-at="2024-10-19T22:36:40 IST" duration-ms="9774">
+    <groups>
+    </groups>
+    <test started-at="2024-10-19T22:36:30 IST" name="Default test" finished-at="2024-10-19T22:36:40 IST" duration-ms="9774">
+      <class name="TestNG.FirstScript">
+        <test-method signature="OpenApp()[pri:1, instance:TestNG.FirstScript@1ff4931d]" started-at="2024-10-19T22:36:30 IST" name="OpenApp" finished-at="2024-10-19T22:36:37 IST" duration-ms="6281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="TestLogo()[pri:2, instance:TestNG.FirstScript@1ff4931d]" started-at="2024-10-19T22:36:37 IST" name="TestLogo" finished-at="2024-10-19T22:36:40 IST" duration-ms="3092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogo -->
+        <test-method signature="TestLogin()[pri:3, instance:TestNG.FirstScript@1ff4931d]" started-at="2024-10-19T22:36:40 IST" name="TestLogin" finished-at="2024-10-19T22:36:40 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method signature="CloseApp()[pri:4, instance:TestNG.FirstScript@1ff4931d]" started-at="2024-10-19T22:36:40 IST" name="CloseApp" finished-at="2024-10-19T22:36:40 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- TestNG.FirstScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
