@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CB_Suite">
+  <test thread-count="5" name="CB_Test_Chrome">
+  <parameter name="BrowserName" value="Chrome"></parameter>
+    <classes>
+      <class name="TestNG.CrossBrowser_TestClass">
+      <methods>
+      <include name="Test_001"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- CB_Test -->
+  
+  <test thread-count="5" name="CB_Test2">
+  <parameter name="BrowserName" value="Edge"></parameter>
+    <classes>
+      <class name="TestNG.CrossBrowser_TestClass">
+      <methods>
+      <exclude name="Test_003"></exclude>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- CB_Test -->
+</suite> <!-- CB_Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CB_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CB_Test_Chrome(failed)">
+    <parameter name="BrowserName" value="Chrome"/>
+    <classes>
+      <class name="TestNG.CrossBrowser_TestClass">
+        <methods>
+          <include name="BM"/>
+          <include name="Test_001"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- TestNG.CrossBrowser_TestClass -->
+    </classes>
+  </test> <!-- CB_Test_Chrome(failed) -->
+</suite> <!-- Failed suite [CB_Suite] -->

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.FirstScript">
+      <class name="DataProvider.DP">
         <methods>
-          <include name="TestLogin"/>
-          <include name="TestLogo"/>
-          <include name="CloseApp"/>
+          <include name="logintest" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- TestNG.FirstScript -->
+      </class> <!-- DataProvider.DP -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
